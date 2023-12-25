@@ -1,0 +1,65 @@
+.SignUpbtn {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: black !important;
+  border-radius: 3px;
+  border: 1px solid var(--Primary-100, #cee0f5);
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+}
+.postjobbtn {
+  color: var(--Gray-White, #fff);
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+
+  text-transform: capitalize;
+  border-radius: 3px;
+  background: var(--Primary-500, #0a65cc);
+
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+}
+.landingText {
+  font-size: 70px;
+}
+.jobHeading {
+  font-size: 50px;
+}
+.jobsbackrground {
+  background-color: #f7f7f8;
+}
+
+.logout {
+  border: none;
+  display: flex;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 3px;
+  border: 1px solid var(--Primary-100, #cee0f5);
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.candidatesContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.tableContainer {
+  flex: 1; /* This makes the table container take up the available space */
+}
